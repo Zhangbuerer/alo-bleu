@@ -21,7 +21,7 @@
 .mini-contentCart .subtotal .price{color:#333;font-size: 13px;float: right;font-weight: 700;}
 .mini-contentCart .actions { text-align: left;}
 .mini-contentCart .actions a{border:1px solid #dddddd;color:#333;font-weight: 700;text-decoration:none;font-size:13px;line-height:35px;padding:0 17px;display:inline-block;margin:5px 0px; text-transform: uppercase;transition:all 500ms ease-in-out 0s;-moz-transition:all 500ms ease-in-out 0s;-webkit-transition:all 500ms ease-in-out 0s;-o-transition:all 500ms ease-in-out 0s;background: #eeeeee none repeat scroll 0 0;}
-.mini-contentCart .actions a:hover{background-color:#dc9814;color: #fff;border-color: #dc9814;}
+.mini-contentCart .actions a:hover{background-color:#ff4cc8;color: #fff;border-color: #ff4cc8;}
 .mini-contentCart .actions a.checkout{float: right;}
 #miniMagiccart .item:hover{background-color:#dddddd}
 #miniMagiccart a.btn-remove,a.btn-edit,a.btn-remove{float:none;margin:0;display: inline-block;vertical-align: top;padding: 0;}

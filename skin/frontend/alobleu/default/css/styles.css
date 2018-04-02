@@ -387,7 +387,7 @@ p.required{font-size:11px;text-align:right;color:#EB340A}
 .data-table thead th .tax-flag{font-size:11px;white-space:nowrap}
 .data-table tbody tr td .product-name a,.data-table tbody tr td .cart-price .price{color:#444;text-decoration:none;font-size:16px;text-transform: capitalize;}
 .data-table tbody tr td.a-subtotal .cart-price .price,.data-table tbody tr td .cart-price .price{color:#333;font-size: 16px;}
-.data-table tbody tr td input.qty{color:#ff5555;text-align:center;width:35px!important;float: left;height: 35px;border: 0;background-color: transparent;}
+.data-table tbody tr td input.qty{color:#ff4cc8;text-align:center;width:35px!important;float: left;height: 35px;border: 0;background-color: transparent;}
 .data-table tfoot{border-bottom:1px solid #eeeeee}
 .data-table tfoot tr.first td{}
 .data-table tfoot tr{background-color:#fff!important}
@@ -516,7 +516,9 @@ tr.summary-details-excluded{font-style:italic}
 .catalog-product-view .header-container-fixed{z-index: 99999;}
 .header-container-fixed .header .top-form-language .lang-switcher:hover .dropdown-switcher, .header-container-fixed .header .currency_top .currency-switcher:hover .dropdown-switcher, .header-container-fixed .header .header-setting .settting-switcher:hover .dropdown-switcher, .header-container-fixed .header .header-search .search-switcher:hover .dropdown-switcher {top: 56px;}
 .header-container-fixed .magicmenu .nav-desktop .level0.ext .level-top::before{bottom: 16px;}
-.header .header-content .content-logo{position: relative;min-height: 1px;  padding-right: 15px;padding-left: 15px;float: left;}
+.header .header-content .content-logo{position: relative;min-height: 1px;  padding-right: 15px;padding-left: 15px;float: left; width:100%;}
+.header-container-fixed .content-logo { display: none;}
+.header-container-fixed .main-header-right { padding: 8px 0;}
 .header-logo{max-width: 240px; margin:auto;}
 .header-logo img{ margin:auto;}
 .header .logo{margin:0;padding: 0px;text-decoration:none!important;outline:none;display: block;position: relative;z-index: 2;}
@@ -577,7 +579,8 @@ tr.summary-details-excluded{font-style:italic}
 .header-setting-search .dropdown-toggle{padding-left: 20px;}
 .btn-fb-login{ position: relative;background: transparent url("../images/fb.jpg") no-repeat scroll 10px 0;display: inline-block;font-size: 0; height: 22px;margin-top: 5px;vertical-align: top;padding: 0 40px;}
 .nav-top-links .fa{margin-top: -3px;font-size: 15px;margin-right: 5px;vertical-align: middle;color: #999999;}
-.header .header-setting .icon-setting, .header .header-search .icon-search{cursor:pointer;padding: 0 15px;position:relative;}
+.header .header-setting .icon-setting, .header .header-search .icon-search, .header .header-wishlist .icon-wishlist{cursor:pointer;padding: 0 15px;position:relative;display: inline-block;}
+.header .header-wishlist .icon-wishlist i{font-size: 16px; line-height: 48px;}
 .header .header-setting, .header .header-search{position:relative;}
 .header .top-form-language .dropdown-toggle .dropdown-icon,.header .top-form-language .dropdown-toggle .value,.header .top-form-language .dropdown-toggle .caret,.header .currency_top .dropdown-toggle .dropdown-icon,.header .currency_top .dropdown-toggle .value,.header .currency_top .dropdown-toggle .caret{display:inline-block;cursor:pointer}
 .header .top-form-language .dropdown-toggle .dropdown-icon{background-position:0 3px;background-repeat:no-repeat;font-size:100%}
@@ -616,7 +619,7 @@ tr.summary-details-excluded{font-style:italic}
 .minict_wrapper.bubble:after{border:0;box-shadow:none}
 .form-language label{display:none}
 .icon-search .fa{text-align: center;vertical-align: middle;padding:0 5px 0 0;color: #aaa;}
-.crat-icon i, .icon-search i, .icon-setting i {font-size: 18px;vertical-align: middle;font-weight: 600;}
+.crat-icon i, .icon-search i, .icon-setting i {font-size: 20px;vertical-align: middle;font-weight: 600;}
 .header .top-left .call-us:after, .header .header-setting .icon-setting:after, .header .header-search .icon-search::after {background: #e3e3e3 none repeat scroll 0 0;content: "";height: 10px;position: absolute;right: 0;top: 20px;width: 1px;}
 .header-setting .dropdown-switcher .label-text {display: none;}
 .header-setting .dropdown-switcher ul {border-bottom: 1px solid #eaeaea;line-height: 16px;margin: 6px 0 8px;padding-bottom: 16px;}
@@ -1570,7 +1573,7 @@ ul.magictabs{padding:0}
 .cart .totals tfoot th{padding:5px 15px 5px 7px}
 .cart .totals tfoot td{padding-top:5px;padding-bottom:5px}
 .cart .totals tfoot th strong,.cart .totals tfoot td strong{font-weight: normal;font-size: 18px;color: #333;text-transform: capitalize;}
-.cart .totals tfoot td strong .price {font-size: 15px;color: #ff5555;}
+.cart .totals tfoot td strong .price {font-size: 15px;color: #ff4cc8;}
 .cart .totals .checkout-types{font-size:13px;padding:0;text-align:right}
 .cart .totals .checkout-types li a{color:#666666;text-decoration:none;}
 .cart .totals .checkout-types li a:hover{color:#ff5555;}
